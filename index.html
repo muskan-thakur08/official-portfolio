@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-300 font-mono">
+
+    <!-- Sidebar -->
+    <div class="flex h-screen">
+        <aside class="w-64 bg-gray-800 p-5">
+            <h2 class="text-teal-400 text-lg font-bold mb-6">Portfolio</h2>
+            <ul class="space-y-4">
+                <li><a href="#about" class="text-gray-300 hover:text-teal-400">📁 About Me</a></li>
+                <li><a href="#projects" class="text-gray-300 hover:text-teal-400">📂 Projects</a></li>
+                <li><a href="#contact" class="text-gray-300 hover:text-teal-400">📂 Contact</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-10 overflow-y-auto">
+            
+            <!-- Hero / Introduction -->
+            <section id="about" class="mb-10">
+                <h1 class="text-4xl text-teal-400 font-bold">Hi, I'm Your Name</h1>
+                <p class="text-gray-400 mt-3">// Frontend Developer & UI/UX Enthusiast</p>
+                <p class="text-gray-500 mt-3">// Crafting beautiful web experiences.</p>
+                <pre class="bg-gray-800 p-4 rounded-lg mt-6 text-gray-200">
+                    <code class="text-sm">
+<span class="text-gray-400">// About Me</span>
+function Developer() &#123;
+    this.skills = ["HTML", "CSS", "JavaScript", "React"];
+    this.experience = "3+ years";
+    this.passion = "Creating visually appealing and interactive web interfaces";
+&#125;
+                    </code>
+                </pre>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects" class="mb-10">
+                <h2 class="text-3xl text-teal-400 font-bold">Projects</h2>
+                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- Project 1 -->
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                        <h3 class="text-xl text-teal-400">Project One</h3>
+                        <p class="text-gray-400 mt-2">// A short description of the project and its technologies</p>
+                        <pre class="bg-gray-700 p-3 rounded text-sm mt-4">
+<span class="text-gray-400">// Code Snippet</span>
+const project = "Interactive Portfolio";
+console.log(project);
+                        </pre>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                        <h3 class="text-xl text-teal-400">Project Two</h3>
+                        <p class="text-gray-400 mt-2">// Another project description and key features</p>
+                        <pre class="bg-gray-700 p-3 rounded text-sm mt-4">
+<span class="text-gray-400">// Code Snippet</span>
+function projectTwo() &#123;
+    return "Code-driven animations";
+&#125;
+                        </pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="mb-10">
+                <h2 class="text-3xl text-teal-400 font-bold">Contact</h2>
+                <p class="text-gray-400 mt-3">// Let's work together! Reach me at:</p>
+                <pre class="bg-gray-800 p-4 rounded-lg mt-4 text-gray-200">
+<span class="text-gray-400">// Email</span>
+const email = "your.email@example.com";
+console.log(email);
+                </pre>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
